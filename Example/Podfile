@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LYFMDBManager_Example' do
+  pod 'LYFMDBManager', :path => '../'
+
+  target 'LYFMDBManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
