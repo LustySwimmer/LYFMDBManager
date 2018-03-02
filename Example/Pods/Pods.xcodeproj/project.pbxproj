@@ -130,7 +130,7 @@
 /* Begin PBXFileReference section */
 		0094164F5A8EA4F76C75887FEA45A0D6 /* FDStackViewExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FDStackViewExtensions.m; path = FDStackView/FDStackViewExtensions.m; sourceTree = "<group>"; };
 		02A8D1F494FC9DA332EFD1B54AAFF066 /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
-		0523E067C36FC975B415D4FCBA322576 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0523E067C36FC975B415D4FCBA322576 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06321C4BD592C047DEDBEC7D21AED1D5 /* FDGapLayoutGuide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDGapLayoutGuide.h; path = FDStackView/FDGapLayoutGuide.h; sourceTree = "<group>"; };
 		097B2A05886B92B61F3983FF5F262458 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C66122DCC2509E2221BCE11DCA39D5D /* FDStackViewAlignmentLayoutArrangement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FDStackViewAlignmentLayoutArrangement.m; path = FDStackView/FDStackViewAlignmentLayoutArrangement.m; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		10D544A50EAC6D88E6E7EEDFDD100F09 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
 		111A184D98E4CE3DDD5952159B8ABB4C /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
 		121C919B9D787AE05FB7F546C89FAFBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1424A552384A9D416CF0CAAD8DDAA0DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1424A552384A9D416CF0CAAD8DDAA0DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		16DCD8EB4919B837E08C563CAA37916D /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
 		195E6EC6ECECAFF4104385B05877EB8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A15AD054141C30E4D531FAC3A0A685F /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
@@ -154,8 +154,8 @@
 		31EF368AE2CDB5A9FCF45E958A5C8FFA /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
 		32CDF992996BF94B224BC344FCE967DB /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
 		33E00CB9E9DBE2F4E3344953DE06BF6B /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
-		389EFFD3EB4662AF18AD709696C7880B /* LYFMDBManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LYFMDBManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38D57A9D3C2A39AB78C13BE09349D14F /* LYFMDBManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LYFMDBManager.podspec; sourceTree = "<group>"; };
+		389EFFD3EB4662AF18AD709696C7880B /* LYFMDBManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LYFMDBManager.framework; path = LYFMDBManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D57A9D3C2A39AB78C13BE09349D14F /* LYFMDBManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LYFMDBManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		433131D6D979C40C521A491CA43BFF2B /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		492901DB495A203B4CB8E91B21275E35 /* FDStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDStackView.h; path = FDStackView/FDStackView.h; sourceTree = "<group>"; };
 		4B55A87057D56164F22B8BBD4AED8B74 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 		6514BA25A8A75D59136D959A0EDE902C /* FDStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDStackView.xcconfig; sourceTree = "<group>"; };
 		653551E2B379703309E000626467284F /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		69DEB5082920D2A7BD77FF2A683037EE /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
-		69E55AFFCC138AF00B8E73C1731F2F3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		69E55AFFCC138AF00B8E73C1731F2F3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6B29C16C17ADB9B2C80F268FB64CF489 /* FDStackViewDistributionLayoutArrangement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDStackViewDistributionLayoutArrangement.h; path = FDStackView/FDStackViewDistributionLayoutArrangement.h; sourceTree = "<group>"; };
 		6F17D6EBDFED1876B88BC1E2EDEC1B09 /* LYFMDBManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LYFMDBManager.modulemap; sourceTree = "<group>"; };
 		7022425CC92C76DB4BD9D42ABC57FC53 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
@@ -176,19 +176,19 @@
 		7BBE2F2A209BC69530F21856714BB0A4 /* NSString+LYFMDBTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LYFMDBTool.h"; path = "LYFMDBManager/Classes/NSString+LYFMDBTool.h"; sourceTree = "<group>"; };
 		7C0E166D5F67A50A86C9674EFCA8EAC6 /* Pods-LYFMDBManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYFMDBManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7DA6D35F0C2274FC99E36C73809BB3AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81779F8E3CA1459FEAB5B536642373A6 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81779F8E3CA1459FEAB5B536642373A6 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		827BB2B4A6C858C42ABDBE2FFD4C254E /* Pods-LYFMDBManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYFMDBManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		827EFA8A39201E5159CE8D56A0ECC2D1 /* FDStackViewLayoutArrangement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDStackViewLayoutArrangement.h; path = FDStackView/FDStackViewLayoutArrangement.h; sourceTree = "<group>"; };
 		8337EF9C9E3D7993B472B0B28D340459 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		841B79B8120CF7FE623588307DD88C5E /* Pods_LYFMDBManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYFMDBManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841B79B8120CF7FE623588307DD88C5E /* Pods_LYFMDBManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYFMDBManager_Tests.framework; path = "Pods-LYFMDBManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87072A610D315EA28EAF4D3DE83B6CBB /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		883E01145E0A94B5AFA4B1BF0AAD363A /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		884371E71C174AF8B3D0962CC1C07386 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
 		8CD3C62B2DBC0000F02941E7ECA6C114 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		8D242606BA8BDBA13D05628A82DF5209 /* Pods-LYFMDBManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYFMDBManager_Example-dummy.m"; sourceTree = "<group>"; };
 		91B7EC2AC202C66092CADA3101CE8DBD /* FDStackViewAlignmentLayoutArrangement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDStackViewAlignmentLayoutArrangement.h; path = FDStackView/FDStackViewAlignmentLayoutArrangement.h; sourceTree = "<group>"; };
-		92F066180F81C71174F8A1BA355A5A5E /* Pods_LYFMDBManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYFMDBManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92F066180F81C71174F8A1BA355A5A5E /* Pods_LYFMDBManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LYFMDBManager_Example.framework; path = "Pods-LYFMDBManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9695F5BE0AE300CFB00B1EDF161D3846 /* LYFMDBManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYFMDBManager-dummy.m"; sourceTree = "<group>"; };
 		97E17A359D2EA74CC5D5404A7E263980 /* LYFMDBTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYFMDBTool.m; path = LYFMDBManager/Classes/LYFMDBTool.m; sourceTree = "<group>"; };
 		9BBFF105D2297FD2AFA7C516D172D982 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
@@ -213,7 +213,7 @@
 		BA6BA7CC62A135264F8196F94CBA327E /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
 		BF98016E23725D1354F4CAD3D0E54B27 /* Pods-LYFMDBManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYFMDBManager_Tests-resources.sh"; sourceTree = "<group>"; };
 		C624F3E9CDF078C692AAD10DC1CFA348 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
-		C96A6EECB2F426204858C99FB6FCB53D /* FDStackView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDStackView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96A6EECB2F426204858C99FB6FCB53D /* FDStackView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDStackView.framework; path = FDStackView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0ED19C259CAB510B86013999693C83 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
 		CE866B312F5D297669B0956F90CA42EB /* FDStackViewExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDStackViewExtensions.h; path = FDStackView/FDStackViewExtensions.h; sourceTree = "<group>"; };
 		CF36BD21E42F550DB418F3F88CA8762B /* Pods-LYFMDBManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYFMDBManager_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -330,6 +330,7 @@
 				F4A54BD035795F7EC256EE5FAC66B9DA /* NSString+MJExtension.m */,
 				EDB08C6B8FBA914B9F8B13D30F45132C /* Support Files */,
 			);
+			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -378,6 +379,7 @@
 				2FD8AD84F63AEC6BF4C11BFEC43B6B32 /* FDTransformLayer.m */,
 				EC984BA450A98092EF12BE56EAC4D37E /* Support Files */,
 			);
+			name = FDStackView;
 			path = FDStackView;
 			sourceTree = "<group>";
 		};
@@ -522,6 +524,7 @@
 				AC52A30452FA02CADCAE625EBEA2B9EB /* standard */,
 				55B18F731BBBC4BE2056E52A91F7E9D1 /* Support Files */,
 			);
+			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
