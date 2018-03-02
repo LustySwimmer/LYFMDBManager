@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'LYFMDBManager_Example' do
   pod 'LYFMDBManager', :path => '../'
-
+  pod 'FDStackView'
   target 'LYFMDBManager_Tests' do
     inherit! :search_paths
 
