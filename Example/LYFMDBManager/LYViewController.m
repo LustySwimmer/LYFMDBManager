@@ -2,8 +2,8 @@
 //  LYViewController.m
 //  LYFMDBManager
 //
-//  Created by lvshi on 03/01/2018.
-//  Copyright (c) 2018 lvshi. All rights reserved.
+//  Created by LustySwimmer on 03/01/2018.
+//  Copyright (c) 2018 LustySwimmer. All rights reserved.
 //
 
 #import "LYViewController.h"
