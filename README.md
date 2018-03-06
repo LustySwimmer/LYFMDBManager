@@ -39,7 +39,7 @@ NSString *filter = @"ORDER BY teacherId DESC LIMIT 10";
 ```
 
 ## warning
-You shouldn't use properties that can't be convert to json string, and as NSUInteger is not supported by Sqlite, you should use NSInteger or NSString instead.
+You shouldn't use properties that can't be converted to json string, and as NSUInteger is not supported by Sqlite, you should use NSInteger or NSString instead.
 
 ## Requirements
 
