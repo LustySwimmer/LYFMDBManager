@@ -38,7 +38,7 @@ NSString *filter = @"ORDER BY teacherId DESC LIMIT 10";
     NSArray *result = [LYFMDBTool ly_selectFromDBWithTableName:NSStringFromClass([LYTeacher class]) category:FMDB_TEACHER filter:filter];
 ```
 
-## warning
+## Warning
 You shouldn't use properties that can't be converted to json string, and as NSUInteger is not supported by Sqlite, you should use NSInteger or NSString instead.
 
 ## Requirements
