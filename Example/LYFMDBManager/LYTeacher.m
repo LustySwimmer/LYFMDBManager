@@ -2,8 +2,8 @@
 //  LYTeacher.m
 //  LYFMDBManager_Example
 //
-//  Created by Jacky on 2018/3/1.
-//  Copyright © 2018年 lvshi. All rights reserved.
+//  Created by LustySwimmer on 2018/3/1.
+//  Copyright © 2018年 LustySwimmer. All rights reserved.
 //
 
 #import "LYTeacher.h"
