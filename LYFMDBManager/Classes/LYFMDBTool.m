@@ -165,6 +165,7 @@ FMDatabaseQueue *_queue;
     }
     NSArray *propertyArr = [self ly_getPropertyList:tableName];
     __block NSMutableArray *arr = [NSMutableArray array];
+    NSArray *allowedProperties = [model.class ly_FMDBAllowedPropertyNames];
     [_queue inDatabase:^(FMDatabase *db) {
         FMResultSet * set = [db executeQuery:sql];
         while ([set next]) {
@@ -172,6 +173,9 @@ FMDatabaseQueue *_queue;
             for (int i = 0; i < propertyArr.count; i++) {
                 MJProperty *property = propertyArr[i];
                 MJPropertyType *type = property.type;
+                if (![allowedProperties containsObject:property.name]) {
+                    continue;
+                }
                 NSString *columnStr = [set stringForColumn:property.name];
                 if (columnStr.length) {
                     if ([self _isKeyTypeValidateJSON:type]) {
